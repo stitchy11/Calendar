@@ -1,0 +1,118 @@
+/* header */
+.header {
+    float:right;
+    display:block;
+}
+    .hcontent {
+    vertical-align: middle;
+    position:static;
+    padding:15px;
+    display:inline-block;
+}
+.hcontent img {width:25px;}
+a:link {
+    color:#444444;
+    text-decoration: none;
+}
+a:visited {
+    color: #444444;
+    text-decoration: none;
+}
+a:hover {
+    color: #444444;
+    text-decoration: none;
+}
+
+/* content */
+.content {
+    padding-bottom:100px;
+}
+.logo {
+        width:400px;
+        margin:0px auto;
+}
+#logoImg {
+        padding-top:100px;
+        width:400px;
+}
+div.search {
+    margin: 0 auto;
+    line-height:50px;
+    width: 700px;
+    height:50px;
+    border :0.2px solid gray;
+    border-radius:25px;
+}
+#searchIcon {
+    width:30px;
+    margin-top:10px;
+    margin-left:10px;
+}
+div.search input {
+        border:none;
+        width:500px;
+        height:30px;
+        position: relative;
+        bottom:10px;
+}
+.rightIcon {
+    float:right;
+}
+.icon {
+    width:30px;
+}
+#keyboardIcon {
+    width:30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#recorderIcon {
+    width:30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.button {
+        display:flex;
+        justify-content:center;
+        width:100%;
+        /* margin:0px auto; */
+}
+.button button {
+    border-radius:10px;
+    border:none;
+    margin:10px;
+    width:150px;
+    height:50px;
+}
+
+/* footer */
+div.footer{
+    background:#eeeeee;
+    border-top:0.1px solid gray;
+    height:100px;
+
+}
+div.footer hr {
+    height:0.5px;
+    border:none;
+    background-color:grey;
+}
+.fcontent{
+    margin:10px;
+    vertical-align: middle;
+    position:static;
+    display:inline-block;
+}
+.footer a {
+    color:#777777;
+}
+.f_right{
+    text-align:right;
+    float:right;
+    width:50%;
+}
+.f_left{
+    text-align:left;
+    display:inline-block;
+    width:50%;
+}
