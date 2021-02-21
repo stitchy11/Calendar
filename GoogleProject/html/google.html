@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <button id="1" onClick="reply_click(this.id)">B1</button>
+<button id="2" onClick="reply_click(this.id)">B2</button>
+<td id="3" onclick="javascript:alert('test')">B3</td>
+
+<script type="text/javascript">
+  function reply_click(clicked_id)
+  {
+      alert(clicked_id);
+  }
+</script>
     <head>
         <title>구글홈페이지 따라잡기</title>
         <link rel="stylesheet" href="css/style.css"/>
