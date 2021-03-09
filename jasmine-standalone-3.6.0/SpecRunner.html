@@ -18,25 +18,22 @@
 </head>
 <body>
   <script type="text/javascript">
-    // jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
-    // jasmine.getEnv().execute();
+    jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+    jasmine.getEnv().execute();
 
     // const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
     // jasmine.getEnv().addReporter(SpecReporter);
     // jasmine.getEnv().execute();
 
-    // const HtmlReporter = require('jasmine_html-reporter').HtmlReporter;
-    // jasmine.getEnv().addReporter(new HtmlReporter());
+    // jasmine.getEnv().addReporter(new jasmine.HtmlReporter());
     // jasmine.getEnv().execute();
 
-    var SpecReporter = new jasmine.SpecReporter({
-      savePath: '..',
-      consolidateAll: false
-    });
-    jasmine.getEnv().addReporter(SpecReporter);
-    jasmine.getEnv().execute();
-
-    
-</script>
+    // var SpecReporter = new jasmine.SpecReporter({
+    //   savePath: '..',
+    //   consolidateAll: false
+    // });
+    // jasmine.getEnv().addReporter(SpecReporter);
+    // jasmine.getEnv().execute();
+  </script>
 </body>
 </html>
